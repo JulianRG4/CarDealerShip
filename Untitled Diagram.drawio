@@ -1,9 +1,128 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T21:57:06.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" version="24.3.1" etag="dc-dyeuHZVaADbmVOalT" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T00:19:02.788Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="E74AjWBjq3jBDs7kPDFr" version="24.3.1" type="github">
   <diagram name="Page-1" id="VjT2EGqy9d7yTguQciOk">
-    <mxGraphModel>
+    <mxGraphModel dx="1622" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3c_F-eTxICZSgDw_rZJT-1" target="3c_F-eTxICZSgDw_rZJT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-1" value="Main&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="632.5" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-2" value="User Interface calls from DealerShip&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1 - price range&lt;/span&gt;&lt;div&gt;2 - Make or Model&lt;/div&gt;&lt;div&gt;3 - Year range&amp;nbsp;&lt;/div&gt;&lt;div&gt;4 - Color&lt;/div&gt;&lt;div&gt;5 - Millage&lt;/div&gt;&lt;div&gt;6 -Vehicle type&lt;/div&gt;&lt;div&gt;7 - List all vehicles&amp;nbsp;&lt;/div&gt;&lt;div&gt;8 - Add vehicles&lt;/div&gt;&lt;div&gt;9 - Remove vehicle&lt;/div&gt;&lt;div&gt;99 - quit&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="300" width="205" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-3" value="Dealer Ship&lt;div&gt;Contains the Logic for corresponding numbers 1 - 9&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="300" width="205" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-9" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="3c_F-eTxICZSgDw_rZJT-2" target="3c_F-eTxICZSgDw_rZJT-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="390" as="sourcePoint" />
+            <mxPoint x="390" y="350" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-23" value="Source" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="3c_F-eTxICZSgDw_rZJT-21">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-40" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-24" value="Calls method" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="3c_F-eTxICZSgDw_rZJT-3" target="3c_F-eTxICZSgDw_rZJT-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="390" as="sourcePoint" />
+            <mxPoint x="490" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-31" value="Source" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="3c_F-eTxICZSgDw_rZJT-29">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-34" value="Answers method call" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-36" value="inventory.csv" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="670" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.349;exitY=0.036;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3c_F-eTxICZSgDw_rZJT-36" target="3c_F-eTxICZSgDw_rZJT-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="690" as="sourcePoint" />
+            <mxPoint x="342.5" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-39" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="3c_F-eTxICZSgDw_rZJT-38">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3c_F-eTxICZSgDw_rZJT-45" target="3c_F-eTxICZSgDw_rZJT-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="620" as="sourcePoint" />
+            <mxPoint x="460" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-41" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="3c_F-eTxICZSgDw_rZJT-40">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3c_F-eTxICZSgDw_rZJT-3" target="3c_F-eTxICZSgDw_rZJT-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="390" as="sourcePoint" />
+            <mxPoint x="182.5" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-43" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="3c_F-eTxICZSgDw_rZJT-42">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-45" value="DealershipFileManager&amp;nbsp;&lt;div&gt;-This creates an Array list&amp;nbsp;&lt;/div&gt;&lt;div&gt;for the dealership to use&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="168.75" y="580" width="187.5" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3c_F-eTxICZSgDw_rZJT-45" target="3c_F-eTxICZSgDw_rZJT-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="390" as="sourcePoint" />
+            <mxPoint x="460" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-47" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="3c_F-eTxICZSgDw_rZJT-46">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-49" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3c_F-eTxICZSgDw_rZJT-45" target="3c_F-eTxICZSgDw_rZJT-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="410" as="sourcePoint" />
+            <mxPoint x="430" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-50" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3c_F-eTxICZSgDw_rZJT-45" target="3c_F-eTxICZSgDw_rZJT-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="410" as="sourcePoint" />
+            <mxPoint x="430" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-51" value="Start of App" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="620" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-52" value="Exit of App" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="610" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-55" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Exit of App&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="800" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3c_F-eTxICZSgDw_rZJT-56" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Start of App&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="530" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
